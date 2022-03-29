@@ -81,3 +81,48 @@
 .mb-title-ps img{
 width: 100%;
 }
+
+/* ps plus */
+.mb-ps-plus{
+  background-color: #BEBCBB;
+  margin: 50px 0;
+}
+
+.mb-ps-plus-cont img{
+  width: 60%;
+  margin-bottom: 40px;
+}
+
+.mb-ps-plus-cont button{
+  background-color: #D9DADC;
+  color: #005EE6;
+}
+
+/* Discounts */
+
+.mb-discounts{
+  margin: 50px 0;
+}
+
+/* play now */
+
+.mb-play-now{
+  background-color: #161C3B;
+  margin: 50px 0;
+}
+
+.mb-play-now-cont img{
+  width: 60%;
+  margin-bottom: 40px;
+}
+
+.mb-play-now-cont button{
+  background-color: #F5F5F5;
+  color: black;
+}
+
+/* social */
+
+.mb-social-cont img{
+  width: 100%;
+}
