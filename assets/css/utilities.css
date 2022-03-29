@@ -4,6 +4,14 @@
   align-items: center;
 }
 
+/* content on cover img */
+.mb-jumbo-cont,
+.mb-jumbo-row,
+.mb-adv-cont,
+.mb-adv-row{
+  height: 100%;
+}
+
 /* button */
 .mb-bttn-pdd{
   border-radius: 30px;
@@ -13,6 +21,11 @@
 }
 
 .mb-bttn-blue{
-  color: white;
+  background-color: #2C64E6;
 }
 /* /button */
+
+/* white text */
+.mb-white-txt{
+  color: white;
+}
