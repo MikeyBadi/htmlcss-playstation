@@ -1,0 +1,29 @@
+/* Footer */
+
+footer{
+  background-color: #00439C;
+  padding: 50px 0 100px;
+  margin-top: 50px;
+}
+
+.mb-footer-logo img{
+  color: white;
+}
+
+.mb-globe img{
+  width: 2%;
+}
+.mb-globe span{
+  font-size: 10px;
+}
+
+.mb-link-f a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.mb-discl img{
+  width: 24%;
+  margin: 10px 0;
+}
