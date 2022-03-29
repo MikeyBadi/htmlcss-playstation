@@ -27,3 +27,19 @@ footer{
   width: 24%;
   margin: 10px 0;
 }
+
+.mb-f-logo{
+  position: relative;
+}
+
+.mb-registred{
+  position: absolute;
+  color: white;
+  top: 65%;
+  left: 12%;
+}
+
+.mb-f-play-logo{
+  width: 15%;
+  filter: brightness(0%) invert(100%);
+}
