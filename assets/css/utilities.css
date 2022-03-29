@@ -1,0 +1,18 @@
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* button */
+.mb-bttn-pdd{
+  border-radius: 30px;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+}
+
+.mb-bttn-blue{
+  color: white;
+}
+/* /button */

@@ -14,6 +14,10 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="/assets/css/debug.css">
+  <link rel="stylesheet" href="/assets/css/header.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/footer.css">
+  <link rel="stylesheet" href="/assets/css/utilities.css">
 
 
   <title>Playstation</title>
@@ -21,32 +25,25 @@
 <body>
 
   <header>
-
-    <div class="debug-h">
-      sony logo
-    </div>
-    <!-- navbar -->
-    <div>
-      <nav class="navbar navbar-expand-md navbar-light debug-h">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
+    <div class="fixed-top">
+      <section class="d-flex justify-content-end mb-cont-logo-sony">
+        <div class="mb-logo-sony center">
+          <img src="assets/img/sony_logo.svg" alt="sony">
+        </div>
+      </section>
+      <!-- navbar -->
+      <div class="mb-nav"> 
+        <nav class="navbar navbar-expand-lg navbar-light mb-nav">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+  
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Giochi
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -54,35 +51,126 @@
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li>
-            </ul>
+  
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Hardwere
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+  
+  
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servizi
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+  
+  
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  novità
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+  
+  
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Fai acquisti
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+  
+  
+              <li class="nav-item active dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Supporto
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+  
+              </ul>
+              <div class="d-flex">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item active dropdown">
+                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      MyPlaystation
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  </ul>
+                </div>
+                <a class="nav-link active" aria-current="page" href="#">
+                  <button class="mb-bttn-pdd mb-accedi">Accedi</button>
+                </a>
+                <a class="nav-link active mb-lens" aria-current="page" href="#"><img src="assets/img/lens.svg" alt="lens"></a>
+              </div>
+            </div>
           </div>
-
-        </div>
-      </nav>
+        </nav>
+        
+      </div>
     </div>
     <!-- /navbar -->
 
     <!-- Jumbotron -->
-    <section class="mb-jumbo debug-h">
+    <section class="mb-jumbo">
       <div class="container mb-jumbo-cont">
         <div class="row mb-jumbo-row">
-          <div class="col-xl-6 col-lg-8 col-md-10 align-self-end debug-h">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus porro delectus, exercitationem excepturi voluptatum fugit soluta nulla, quod quisquam eum magni error! Magnam enim commodi temporibus harum, unde eius consectetur voluptates eum, laudantium, repellat accusantium sit. Illo repellat quas harum, dignissimos quia dolorem vero corporis temporibus numquam eligendi. Sapiente neque corrupti cumque aliquid. Qui corrupti nostrum ullam animi, consequuntur officiis dolorum deserunt assumenda aperiam sequi. Sunt voluptatum fugit optio in adipisci laborum? Pariatur ab, laboriosam minus modi, quam doloribus qui laborum ex ullam beatae consequatur atque voluptas. Eius, iusto! Odit porro reiciendis sed dolorum hic, quisquam sit est molestias nostrum!
+          <div class="col-xl-4 col-lg-8 col-md-10 align-self-end">
+            <img src="assets/img/returnal-hero-banner-logo.png" alt="returnal-logo">
+            <h1>Rompi il cerchio </h1>
+            <p>
+              Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.
+            </p>
+
+            <button class="mb-bttn-pdd">Acquista ora</button>
           </div>
         </div>
       </div>
     </section>
     <!-- /Jumbotron -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-2 col-sm-4 col-6 debug-h">1</div>
-        <div class="col-lg-2 col-sm-4 col-6 debug-h">1</div>
-        <div class="col-lg-2 col-sm-4 col-6 debug-h">1</div>
-        <div class="col-lg-2 col-sm-4 col-6 debug-h">1</div>
-        <div class="col-lg-2 col-sm-4 col-6 debug-h">1</div>
-        <div class="col-lg-2 col-sm-4 col-6 debug-h">1</div>
+    <!-- Jubo cards -->
+    <section class="mb-card-jumbo">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-sm-4 col-6 mb-card-game"><img src="assets/img/returnal-listing-thumb-01-ps5.jpg" alt="returnal game"></div>
+          <div class="col-lg-2 col-sm-4 col-6 mb-card-game"><img src="assets/img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet-and-clank"></div>
+          <div class="col-lg-2 col-sm-4 col-6 mb-card-game"><img src="assets/img/returnal-listing-thumb-01-ps5.jpg" alt="returnal game"></div>
+          <div class="col-lg-2 col-sm-4 col-6 mb-card-game"><img src="assets/img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet-and-clank"></div>
+          <div class="col-lg-2 col-sm-4 col-6 mb-card-game"><img src="assets/img/returnal-listing-thumb-01-ps5.jpg" alt="returnal game"></div>
+          <div class="col-lg-2 col-sm-4 col-6 mb-card-game"><img src="assets/img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet-and-clank"></div>
+        </div>
       </div>
-    </div>
+    </section>
+      <!-- /Jubo cards -->
   </header>
 
   <main>
