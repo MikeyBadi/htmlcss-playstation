@@ -23,6 +23,82 @@
   inset 0 0 0 2px #fff;
 }
 
+/* bonus */
+
+/* menu position */
+.mb-toggle{
+  position:static;
+}
+
+.mb-ps-toggle{
+  width: 100vw;
+  border-radius: 0;
+  margin-top: 0 !important;
+  border-top: 0 !important;
+  margin-left: 0 !important;
+  border-left: 0 !important;
+}
+
+/* items position */
+.mb-inline{
+  display: inline-block;
+}
+.mb-block{
+  display: block;
+}
+/* ps5 img decoration */
+.mb-hover-eff{
+  background-color: transparent !important;
+}
+.mb-hover-eff:hover img{
+  box-shadow: 2px 2px 5px 1.5px gainsboro;
+}
+
+/* list decoration below imgs*/
+.mb-list-dec span{
+  padding-bottom: 2%;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  font-size: 10px;
+  color: #2870D1;
+}
+
+/* chevron */
+.mb-navbar-bttn{
+  border: none;
+  background-color: transparent;
+}
+
+.dropdown-toggle::after{
+  display: none;
+}
+
+.mb-chev{
+  width:10px;
+}
+
+.mb-chev-down{
+  transform: rotate(180deg);
+}
+.mb-navbar-bttn:active .mb-hover-up{
+  display: inline-block;
+}
+.mb-hover-up{
+  display: none;
+}
+.mb-navbar-bttn:focus .mb-chev-down{
+  display: none;
+}
+.mb-chev-down{
+  display: inline-block;
+}
+
+
+
+
+/* /bonus */
+
 /* Jumbotron */
 
 .mb-jumbo{
