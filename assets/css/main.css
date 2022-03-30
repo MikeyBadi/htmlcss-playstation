@@ -65,6 +65,10 @@
 .mb-adv-row button{
   background-color: #CD3D10;
 }
+.mb-adv-row button:hover{
+  box-shadow: 0 0 0 2px #CD3D10,
+  inset 0 0 0 2px #fff;
+}
 
 /* New release */
 
@@ -97,6 +101,10 @@ width: 100%;
   background-color: #D9DADC;
   color: #005EE6;
 }
+.mb-ps-plus-cont button:hover{
+  box-shadow: 0 0 0 2px #C6C5C5;
+
+}
 
 /* Discounts */
 
@@ -119,6 +127,10 @@ width: 100%;
 .mb-play-now-cont button{
   background-color: #F5F5F5;
   color: black;
+}
+.mb-play-now-cont button:hover{
+  box-shadow: 0 0 0 2px #F5F5F5,
+  inset 0 0 0 2px #161C3B;
 }
 
 /* social */

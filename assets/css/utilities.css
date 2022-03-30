@@ -14,6 +14,7 @@
 
 /* button */
 .mb-bttn-pdd{
+  display: inline-block;
   border-radius: 30px;
   border: none;
   padding: 5px 10px;
@@ -22,6 +23,10 @@
 
 .mb-bttn-blue{
   background-color: #2C64E6;
+}
+.mb-bttn-blue:hover{
+  box-shadow: 0 0 0 2px #2C64E6,
+  inset 0 0 0 2px #fff;
 }
 /* /button */
 
