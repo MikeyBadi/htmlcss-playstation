@@ -36,6 +36,7 @@
 .mb-hw-prod-ps5{
   padding-bottom: 35px;
   border-bottom: 2px solid transparent;
+  opacity: 0.6;
 }
 .mb-hw-prod-ps5 span{
   text-align: center;
@@ -44,6 +45,7 @@
 .mb-hw-prod-ps5:hover{
   border-bottom: 2px solid #2C64E6;
   transform:translateY(-2px) ;
+  opacity: 1;
 }
 
 /* advertisement */
