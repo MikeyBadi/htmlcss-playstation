@@ -81,17 +81,21 @@
 .mb-chev-down{
   transform: rotate(180deg);
 }
-.mb-navbar-bttn:active .mb-hover-up{
+
+.dropdown-toggle .mb-chev-down{
   display: inline-block;
 }
-.mb-hover-up{
+.dropdown-toggle.show .mb-chev-down{
   display: none;
 }
-.mb-navbar-bttn:focus .mb-chev-down{
+.dropdown-toggle .mb-hover-up{
   display: none;
 }
-.mb-chev-down{
+.dropdown-toggle.show .mb-hover-up{
   display: inline-block;
+}
+.dropdown-toggle.show span{
+  color: #0070D1;
 }
 
 

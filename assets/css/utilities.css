@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+.mb-text-center{
+  text-align: center;
+}
+
 /* content on cover img */
 .mb-jumbo-cont,
 .mb-jumbo-row,
