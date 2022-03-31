@@ -43,9 +43,10 @@
 }
 
 .mb-hw-prod-ps5:hover{
-  border-bottom: 2px solid #2C64E6;
-  transform:translateY(-2px) ;
   opacity: 1;
+}
+.mb-hw-prod-ps5:active{
+  border-bottom: 2px solid #2C64E6;
 }
 
 /* advertisement */
